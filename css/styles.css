@@ -1,0 +1,428 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Nunito', sans-serif;
+}
+
+/*HEADER*/
+/*Чиним непогасающую кнопку*/
+#collapse-btn{
+	background-color: #f6b319;
+}
+
+#collapse-btn:active{
+	background-color: #fff;
+}
+/*Починили*/
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background: url('../images/Logo-150-150.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+	padding-top:25px;
+}
+
+#brand-name {
+	font-family: 'Merriweather', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span{
+	vertical-align: middle;
+}
+
+#nav-list { /*Список менюшка*/
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+#phone{
+	margin-top: 5px;
+}
+
+#phone a{/*Номер телефона*/
+	text-align: right;
+	padding-bottom: 0;
+}
+
+#phone div{/*Мы доставляем*/
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+
+/*Кнопка меню. Нормальная граница*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #61122f;
+}
+
+/*Кнопка меню. Расположение*/
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top: -30px;
+}
+/** HEADER END **/
+
+/** HOMEPAGE **/
+.container .jumbotron{
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+}
+
+/*Размерность*/
+#menu-tile, #specials-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative; /*Чтобы надпись внутри можно было позиционировать относительно этого контейнера*/
+	border: 2px solid #3f0c1f;
+	overflow: hidden;/*Чтобы ничего не вылезало*/
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+	background: url('../images/menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#specials-tile{
+	background: url('../images/specials-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+/*Подпись плиток*/
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+/* HOMEPAGE END*/
+
+
+	/*CATEGORIES*/
+
+	.category-tile{
+		position: relative;
+		border: 2px solid #3f0c1f;
+		overflow: hidden;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto 15px;
+	}
+
+	.category-tile span{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		background-color: #000;
+		color: #fff;
+		opacity: .8;
+	}
+
+	.category-tile:hover{
+		box-shadow: 0 1px 5px 1px #cccccc;
+	}
+
+	#menu-categories-tile + div{
+		margin-bottom: 50px;
+	}
+
+	/*CATEGORIES END*/
+
+/*MENU*/
+
+	.menu-item-tile{/*Одна карточка товара*/
+		margin-bottom: 25px;
+	}
+
+	.menu-item-tile hr{
+		width: 80%;
+	}
+
+	.menu-item-tile .menu-item-price{/*Ценник*/
+		font-size: 1.1em;
+		text-align: right;
+		margin-top: -15px;
+		margin-right: -15px;
+	}
+
+	.menu-item-tile .menu-item-price span{
+		font-size: .6em;
+	}
+
+	.menu-item-photo{
+		position: relative;
+		border: 2px solid #3f0c1f;
+		overflow: hidden;
+		padding: 0;
+		margin-right: -15px;
+		margin-left: auto;
+		margin-bottom: 20px;
+		max-width: 250px;
+	}
+
+	.menu-item-photo div{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 80px;
+		background-color: #557c3e;
+		text-align: center;
+	}
+
+	.menu-item-description{
+		padding-right: 30px;
+	}
+
+	h3.menu-item-title{
+		margin: 0 0 10px;
+	}
+
+	.menu-item-details{
+		font-size: .9em;
+		font-style: italic;
+	}
+
+/*MENU END*/
+
+/* FOOTER */
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+
+.panel-footer div.row{/*Отделяем копирайт от основного текста*/
+	margin-bottom: 35px;
+}
+
+#hours, #address{
+	line-height: 2; /*Увеличиваем межстрочный интервал*/
+}
+
+#hours > span, #address > span{
+	font-size: 1.3em;
+}
+
+#address p{ /*Меняем цвет и размер шрифта для пометки о доставке*/
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+#testimonials{
+	font-style: italic;
+}
+
+#testimonials p:nth-child(2){
+	margin-top: 25px;
+}
+
+/* END FOOTER */
+
+/* ТОЛЬКО БОЛЬШИЕ ДЕВАЙСЫ */
+@media (min-width: 1200px){
+	.jumbotron{
+		background: url('../images/jumbotron_1200.jpg') no-repeat;
+		height: 675px;
+	}
+}
+
+/* ТОЛЬКО СРЕДНИЕ ДЕВАЙСЫ */
+@media (min-width: 992px) and (max-width: 1199px){
+	/*Header -- logo pic*/
+	#logo-img{
+		background: url('../images/Logo-100-100.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+
+	/*Header*/
+	.navbar-brand{
+		padding-top: 10px;
+
+	}
+
+	/*Сертифицированно вкусно*/
+	.navbar-brand p{
+		margin-top: 13px;
+	}
+
+	.jumbotron{
+		background: url('../images/jumbotron_992.jpg') no-repeat;
+		height: 558px;
+	}
+}
+
+/* ТОЛЬКО МАЛЫЕ ДЕВАЙСЫ */
+@media (min-width: 768px) and (max-width: 991px){
+	.jumbotron{
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+	}
+}
+
+/* ТОЛЬКО СВЕРХМАЛЫЕ ДЕВАЙСЫ (смартфоны) */
+@media (max-width: 767px){
+
+	/*Header*/
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	/*Restaraunt name*/
+	#brand-name{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+
+	/*Сертифицированно вкусно*/
+	.navbar-brand p{
+		text-transform: uppercase;
+		font-size: .6em;
+		margin-top: 12px;
+	}
+
+	/*Star*/
+	.navbar-brand p img{
+		height: 20px;
+	}
+
+	/*Пункты меню*/
+	#collapsible-nav a{
+		font-size: 1.2em;
+	}
+
+	/*Значки в выпадающем меню*/
+	#collapsible-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	.container .jumbotron{
+		margin-top: 30px;
+		padding: 0;
+
+	}
+	/* HEADER END */
+
+	/*Home page*/
+	#menu-tile, #specials-tile{
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+	/*Home page END*/
+
+
+
+	/*FOOTER*/
+
+	.panel-footer section{
+		margin-bottom: 30px;
+		text-align: center; 
+	}
+
+	.panel-footer section:nth-child(3){
+		margin-bottom: 0;/*Чтобы не было большого расстояния между нижней секцией и нижним краем браузера*/		
+	}
+
+	.panel-footer section hr{
+		width: 50%;
+	}
+
+	/*FOOTER END*/
+
+	/*MENU*/
+		.menu-item-photo{
+			margin-right: 	auto;
+		}
+
+		.menu-item-tile .menu-item-price{
+			text-align: 	center;	
+			margin-right: 	auto;
+		}
+		.menu-item-description{
+			text-align: 	center;	
+		}
+	/*MENU END*/
+}
+
+/*XXS-devices*/
+@media (max-width: 479px){
+	.col-xxs-12{
+	position: relative;
+  	min-height: 1px;
+  	padding-right: 15px;
+ 	padding-left: 15px;
+ 	float: left;
+ 	width: 100%;
+	}
+}
+
+/* СУпер-маленькие девайсы */
+@media (max-width: 390px){
+	#menu-tile, #specials-tile{
+		width: 100%;
+		margin: 0 auto 15px;
+	}
+}
