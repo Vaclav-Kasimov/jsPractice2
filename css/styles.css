@@ -7,13 +7,13 @@ body{
 
 /*HEADER*/
 /*Чиним непогасающую кнопку*/
-#collapse-btn{
+/*#collapse-btn{
 	background-color: #f6b319;
 }
 
 #collapse-btn:active{
 	background-color: #fff;
-}
+}*/
 /*Починили*/
 #header-nav{
 	background-color: #f6b319;
